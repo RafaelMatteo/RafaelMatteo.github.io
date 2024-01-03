@@ -30,11 +30,18 @@ body {
 
   aside {
 	padding: 10px;
-	background-color: blue;
+	background-color: #0000cd;
 
   }
 
   main {
+
+	margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
 	padding: 10px;
 	overflow-y: auto;
   }
@@ -45,3 +52,103 @@ body {
 	font-size: 15px;
 	color: #fff;
   }
+
+
+  /* Estilo de las tarjetas */
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    width: 250px; /* Ajusta según sea necesario */
+	height: 400px;
+    margin-right: 15px; /* Espacio entre tarjetas */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card:last-child {
+    margin-right: 0; /* Elimina el espacio a la derecha de la última tarjeta */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+/*
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px; /* Ajusta según sea necesario 
+	
+}
+
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+*/
