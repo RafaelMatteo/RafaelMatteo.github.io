@@ -8,7 +8,6 @@
     </title>
     <script src="./javascript/scripts.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    <!-- <script src="https://kit.fontawesome.com/31b810bb63.js" crossorigin="anonymous"></script> -->
     <link href="./icons/css/all.min.css" rel="stylesheet">
     <link href="./icons/css/fontawesome.min.css" rel="stylesheet">
     <!-- <link rel="icon"  type="image/png" href="./icons/wp.png"> -->
@@ -27,6 +26,13 @@
     </nav>
 
     <aside id="aside">
+
+      <p id="p-aside">
+        Data Scientist
+        Machine Learning
+      </p>
+
+      <hr>
       
       <p id="p-aside">
         <i class="fa-brands fa-whatsapp"></i> +598 91 667 422
@@ -49,23 +55,33 @@
 
     <main id="main">
 
-      <h2>Pagina principal</h2>
+      <h2>Bienvenidos</h2>
 
       <div class="card-container">
 
         <div class="card">
           <img src="./images/busin_anal.avif" alt="Imagen de la tarjeta">
           <div class="card-body">
-              <h3 class="card-title">Título de la Tarjeta</h3>
+              <h3 class="card-title">
+                <span style="color: #0000cd;">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </span>
+                Business Analytics
+              </h3>
               <p class="card-text">Descripción corta de la tarjeta. Puedes agregar más contenido aquí.</p>
-              <a href="#" class="btn">Leer más</a>
+              <a href="#" class="btn" onclick="cargarOtraPagina('business_analytics.html')">Leer más</a>
           </div>
         </div>
       
         <div class="card">
             <img src="./images/stats.avif" alt="Imagen de la tarjeta 2">
             <div class="card-body">
-                <h3 class="card-title">Statistics</h3>
+                <h3 class="card-title">
+                  <span style="color: #0000cd;">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                  Statistics
+                </h3>
                 <p class="card-text">Descripción corta de la tarjeta 2. Puedes agregar más contenido aquí.</p>
                 <a href="#" class="btn" onclick="cargarOtraPagina('statistics.html')">Leer más</a>
             </div>
@@ -74,19 +90,24 @@
         <div class="card">
             <img src="./images/data_analytics.jpeg" alt="Imagen de la tarjeta 3">
             <div class="card-body">
-                <h3 class="card-title">Título de la Tarjeta 3</h3>
+                <h3 class="card-title">
+                  <span style="color: #0000cd;">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                  Data Analysis
+                </h3>
                 <p class="card-text">Descripción corta de la tarjeta 3. Puedes agregar más contenido aquí.</p>
-                <a href="#" class="btn">Leer más</a>
+                <a href="#" class="btn" onclick="cargarOtraPagina('data_analysis.html')">Leer más</a>
             </div>
         </div>
 
-        <div class="card">
+        <!-- <div class="card">
           <img src="./images/deep_learn.jpg" alt="Imagen de la tarjeta 4">
           <div class="card-body">
               <h3 class="card-title">Deep Learning</h3>
               <p class="card-text">Descripción corta de la tarjeta 4. Puedes agregar más contenido aquí.</p>
-              <a href="#" class="btn">Leer más</a>
-          </div>
+              <a href="#" class="btn" onclick="cargarOtraPagina('deep_learning.html')">Leer más</a>
+          </div> -->
       </div>
 
       </div>
